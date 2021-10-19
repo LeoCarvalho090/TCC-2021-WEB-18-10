@@ -1,0 +1,19 @@
+INDEX VERSION 1.131+C:\Wesley\Tcc\.metadata\.plugins\org.eclipse.jdt.core
+1075296075.index
+2363777688.index
+1327715596.index
+1881901434.index
+3042409518.index
+3259354470.index
+897180983.index
+2007277166.index
+3000527674.index
+815657578.index
+351206218.index
+1551688504.index
+1781996384.index
+318786451.index
+490893031.index
+2641757269.index
+116716152.index
+659113478.index

@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+body{
+    /*
+    min-width: 320px;
+    max-width: 1920px;
+    
+    min-height: 568px;
+    max-height: 1080px;
+   */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+main{
+    /*
+    text-align: center;
+    align-items: center;
+    */
+    
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background: rgb(3,168,243);
+    background: linear-gradient(90deg, rgba(3,168,243,1) 0%, rgba(62,82,182,1) 86%); 
+}
+/*
+#titulo{
+    color: #fff;
+    font-size: 1.8rem;
+    margin-top: 5%;
+    text-align: center;
+}
+*/
+.formu{
+    /*
+    margin: auto;
+    min-width: 340px;
+    max-width: 670px;
+  
+   min-height: 350px;
+   max-height: 400px;
+   */
+   width: 380px;
+   height: 480px;
+   position: relative;
+   margin: 6% auto;
+   background: #eaf1fa;
+   border-radius: 10px;
+   padding: 5px;
+   overflow: hidden;
+}
+.btnLR{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #00a6cbb0;
+    border-radius: 30px; 
+       
+}
+
+.btn{
+    /*margin-top: 5px;*/
+    font-size: 13px;
+    border: 0;
+    background-color: transparent;
+    padding: 10px 21px;
+    outline: none;
+    position: relative;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #00d4ff, hsl(240, 90%, 73%));
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.login{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.register{
+    top: 115px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+::placeholder{
+    text-transform: uppercase;
+}
+.email, .senha, .nome, .tel {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border: 2.5px solid black;
+    border-radius: 15px; ;
+
+    outline: none;
+    background: transparent;
+}
+
+
+input[type=submit]{
+    
+   width: 85%;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+
+    text-transform: uppercase;
+    color: black;
+    background:#00a5cb; 
+    font-size: 20px;
+    border:#9fa5aa solid 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #4ccbe7;
+}
+#login{
+    left: 50px;
+    
+
+}
+
+#register{
+    left: 450px;
+    
+}
+
+@media screen and (min-width:320px) and (max-width:425px){
+main{
+    width: 100%;
+    height: 100%;
+}
+.formu{ 
+    width: 280px;
+    height: 480px;
+    position: relative;
+    margin: 8% auto;
+    background: #eaf1fa;
+    border-radius: 10px;
+    padding: 5px;
+    overflow: hidden;
+ }
+ .login{
+    top: 160px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.register{
+    top: 115px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.email, .senha, .nome, .tel {
+    width: 75%;
+    padding: 16px 25px;
+    border: 2.5px solid black;
+    border-radius: 15px;
+    
+    margin: 0 auto;
+    outline: none;
+    background: transparent;
+}
+input[type=submit]{
+    width: 70%;
+    padding: 11px 30px;
+    margin-left: 2%;
+    margin-top: 15%;
+    text-align: center;
+    align-items: center;
+}
+}
+/*
+input[type=text], input[type=email],
+input[type=tel], input[type=password]{
+
+    width: 90%;
+    padding: 0.8rem 1.5rem; 
+    border: 2.5px solid black; 
+    border-radius: 15px;
+    
+}
+
+#nome, #email, #tel, #senha {
+    text-transform: uppercase;
+
+}
+
+#botao{   
+    margin: 0 auto;
+}
+
+.voltar {
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    background:#00a5cb; 
+    font-size: 20px;
+    border:#9fa5aa solid 2px;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+a{
+    color: black;
+}
+
+input[type=submit]{
+    float: right;
+    margin-right: 10%;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    color: black;
+    background:#00a5cb; 
+    font-size: 20px;
+    border:#9fa5aa solid 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #4ccbe7;
+  }
+*/
+  
+
+
+  
+/*
+form{
+  line-height: 5px;
+  background-color: #eaf1fa;
+  border-radius: 20px;
+  margin-top: 2%;
+  display: inline-block;
+  position: relative;
+  width: 70%;
+    height: 24rem;
+ /*
+    min-width: 340px;
+    max-width: 670px;
+  
+   min-height: 350px;
+   max-height: 400px;
+   
+}
+*/
+/*
+  @media screen and (max-width:500px) {
+    h1{
+        font-size: 40px;
+    }
+    p{
+          font-size: 25px;
+      }
+
+      #titulo{
+          margin-top: 2%;
+      }
+      form{
+          height: 27rem;
+      }
+}
+
+  @media screen and (max-width: 800px) {
+      
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+          font-size: 30px;
+      }
+
+      #titulo{
+          margin-top: 15%;
+      }
+      form{
+          height: 28rem;
+      }
+
+      input[type=submit]{
+        float: none;
+        margin-left: 15%;
+      
+      }
+     
+}
+*/

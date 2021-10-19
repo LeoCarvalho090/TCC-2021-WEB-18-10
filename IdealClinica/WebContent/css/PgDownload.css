@@ -1,0 +1,36 @@
+body{
+
+    background: rgb(3,168,243);
+    background: linear-gradient(90deg, rgba(3,168,243,1) 0%, rgba(62,82,182,1) 86%); 
+}
+
+#frasea{
+
+    text-align: center;
+    color :#ffffff;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#fraseb{
+
+    text-align: center;
+    color :#ffffff;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#qr{
+
+    text-align: center;
+   
+}
+
+@media (max-width:405px) {
+    img{
+        height: auto;
+        max-width: 90%;
+    }
+}

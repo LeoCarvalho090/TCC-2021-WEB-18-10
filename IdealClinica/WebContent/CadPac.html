@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" type="text/css" href="css/Pac.css" media="screen" />
+  
+    <title>Sou Paciente</title>
+</head>
+<body>
+    <main>
+      
+        <div class="formu"> 
+            <div class="btnLR">
+                <div id="btn"></div>
+                <button type="button" class="btn" onclick="login()">ENTRAR</button>
+                <button type="button" class="btn" onclick="register()">REGITRE-SE</button>
+            </div>   
+
+            <form id="login" class="login">
+              
+                 <div id="email">
+                     <input placeholder="INSIRA SEU EMAIL" type="email" name="email" required="required" class="email">
+                 </div>
+ 
+                 <br>
+ 
+                 <div id="senha">
+                     
+                     <input placeholder="INSIRA SUA SENHA" type="password" name="senha" required="required" class="senha">
+                 </div>
+             <br>
+                 <div id="botao">
+                     <input type="submit" value="continuar" class="continuar">
+                   <!-- <button class="voltar">
+                     <a href="/PgInic.html"> voltar</a>
+                    </button>
+                    -->                    
+                 </div>
+            </form>
+
+         <form id="register" class="register">
+                <div id="nome">
+           
+                   <input placeholder="Nome completo" type="text" required="required" name="nome" class="nome">
+                </div>
+                
+                <br>
+
+                <div id="email">
+                    <input placeholder="email" type="email" name="email" required="required" class="email">
+                </div>
+
+                <br>
+
+                <div id="tel">
+                
+                    <input placeholder="Telefone" type="tel" name="tel" required="required"  class="tel">
+                </div>
+                
+                <br>
+
+                <div id="senha">
+                    
+                    <input placeholder="Senha" type="password" name="senha" required="required" class="senha">
+                </div>
+            <br>
+                <div id="botao">
+                    <input type="submit" value="continuar" class="continuar">
+                
+                </div>
+         </form>
+    
+      </div>
+    </main>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+    </script>
+  </body>
+</html>

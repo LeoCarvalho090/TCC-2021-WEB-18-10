@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Wesley\Tcc\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4186806972.index
+2836232452.index
+816258107.index
+4098892266.index
+1551688504.index
+3804452292.index
+1510381557.index
